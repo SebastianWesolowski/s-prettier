@@ -5,13 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe4e43c6-098c-4bad-9845-8c2c513c32cc" name="Changes" comment="improveg">
-      <change beforePath="$PROJECT_DIR$/.github/nodejs.version" beforeDir="false" afterPath="$PROJECT_DIR$/.github/nodejs.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.prettierignore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.husky/lint-staged.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/lint-staged.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nvmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customize.sh" beforeDir="false" afterPath="$PROJECT_DIR$/customize.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/HowToAutoDeploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/HowToAutoDeploy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prettier.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/prettier.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/media-breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/tailwind.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/utils.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/transform-browser-list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +40,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;SebastianWesolowski&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;SebastianWesolowski&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a7ad8305-022e-429e-a68d-4085c5304d5a" />
+        <option name="url" value="https://github.com/SebastianWesolowski/s-prettier.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -45,23 +87,32 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sebastian/web/@s-starters/starter-npm-package/.github/workflows&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sebastian/web/s-prettier/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/sebastian/web/@s-starters/starter-npm-package/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/sebastian/web/@s-starters/starter-npm-package/node_modules/typescript/lib&quot;
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/sebastian/web/s-prettier/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/sebastian/Applications/IntelliJ IDEA Ultimate 2023.2.3.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/.github/workflows" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/.husky" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -157,7 +208,7 @@
       <workItem from="1706192814294" duration="599000" />
       <workItem from="1706460802631" duration="599000" />
       <workItem from="1707058390277" duration="3578000" />
-      <workItem from="1707074012101" duration="760000" />
+      <workItem from="1707074012101" duration="6035000" />
     </task>
     <task id="LOCAL-00001" summary="improve">
       <option name="closed" value="true" />
