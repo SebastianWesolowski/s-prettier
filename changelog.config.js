@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   disableEmoji: false,
   format: "{type}{scope}: {emoji}{subject}",
   list: ["feat", "fix", "clean", "refactor", "ci", "config", "chore", "docs", "test", "breaking"],
