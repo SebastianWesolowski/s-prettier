@@ -2,14 +2,18 @@
   "name": "s-prettier",
   "version": "0.0.0-development",
   "description": "A template for creating npm packages using TypeScript",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "start:dev": "run-s build",
     "lint:check": "run-s prettier:check",
     "lint:fix": "run-s prettier:fix",
     "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json}\"",
     "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
-    "build": "echo build",
-    "build:prod": "echo build:prod",
+    "build": "tsc --project tsconfig.build.json",
+    "build:prod": "run-s build",
     "cm": "cz",
     "husky:prepare-commit-msg": "exec < /dev/tty && node_modules/.bin/git-cz --hook || true",
     "husky:pre-commit": "lint-staged -c ./.husky/lint-staged.config.json",
@@ -64,5 +68,8 @@
     "commitizen": {
       "path": "git-cz"
     }
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
   }
 }
