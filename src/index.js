@@ -1,13 +1,7 @@
-// import prettierConfig from "./prettier.config.js";
-// import prettierIgnore from "./.prettierignore.js";
-//
-// export default {
-//   prettierConfig,
-//   prettierIgnore,
-// };
+const prettierConfig = require("./prettier.config.js");
+const prettierIgnore = require("./.prettierignore.js");
 
-const err = true;
-
-if (err) {
-  console.log("Exit code: ", err.code);
-}
+module.exports = {
+  prettierConfig,
+  prettierIgnore,
+};
