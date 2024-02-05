@@ -16,9 +16,9 @@
     "build:prod": "echo build:prod",
     "cm": "cz",
     "husky:prepare-commit-msg": "exec < /dev/tty && node_modules/.bin/git-cz --hook || true",
+    "husky:commit-msg": "commitlint --edit $GIT_PARAMS",
     "husky:pre-commit": "lint-staged -c ./.husky/lint-staged.config.json",
     "husky:pre-push": "run-s lint build:prod",
-    "husky:commit-msg": "commitlint --edit $GIT_PARAMS",
     "staged:lint:check": "npm run prettier:check",
     "staged:lint:fix": "npm run prettier:fix",
     "prepare": "husky install"
