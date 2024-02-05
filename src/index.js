@@ -5,3 +5,9 @@
 //   prettierConfig,
 //   prettierIgnore,
 // };
+
+const err = true;
+
+if (err) {
+  console.log("Exit code: ", err.code);
+}

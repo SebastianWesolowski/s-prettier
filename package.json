@@ -11,7 +11,7 @@
     "lint:check": "run-s prettier:check",
     "lint:fix": "run-s prettier:fix",
     "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json}\"",
-    "prettier:fix": "prettier --write",
+    "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
     "build": "echo build",
     "build:prod": "echo build:prod",
     "cm": "cz",
@@ -56,13 +56,13 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.3.0",
-    "conventional-changelog-conventionalcommits": "^7.0.2",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
     "git-cz": "^4.9.0",
     "husky": "6.0.0",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^13.2.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.2.5",
-    "semantic-release": "^23.0.0"
+    "semantic-release": "^21.0.1"
   },
   "config": {
     "commitizen": {
