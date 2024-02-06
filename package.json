@@ -2,9 +2,10 @@
   "name": "s-prettier",
   "version": "0.0.0-development",
   "description": "A template for creating npm packages using TypeScript",
-  "main": "./lib/index.js",
+  "main": "index.json",
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "index.json"
   ],
   "scripts": {
     "start:dev": "run-s build",
@@ -13,7 +14,7 @@
     "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json}\"",
     "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
     "build": "tsc --project tsconfig.build.json",
-    "build:prod": "run-s build",
+    "build:prod": "run-s build  && cp src/index.json lib",
     "cm": "cz",
     "husky:prepare-commit-msg": "exec < /dev/tty && node_modules/.bin/git-cz --hook || true",
     "husky:pre-commit": "lint-staged -c ./.husky/lint-staged.config.json",
@@ -62,8 +63,10 @@
     "husky": "6.0.0",
     "lint-staged": "^13.2.1",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.2.5",
     "semantic-release": "^21.0.1"
+  },
+  "peerDependencies": {
+    "prettier": "^3.2.5"
   },
   "config": {
     "commitizen": {

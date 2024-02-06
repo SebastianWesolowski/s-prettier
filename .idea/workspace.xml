@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe4e43c6-098c-4bad-9845-8c2c513c32cc" name="Changes" comment="improveg">
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.prettierignore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prettier.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changelog.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +66,7 @@
     "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "20.11.0",
     "javascript.nodejs.core.library.typings.version": "20.11.0",
-    "last_opened_file_path": "/Users/sebastian/web/s-prettier",
+    "last_opened_file_path": "/Users/sebastian/web/s-prettier/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,8 +86,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.github/workflows" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/.husky" />
@@ -193,7 +187,8 @@
       <workItem from="1706460802631" duration="599000" />
       <workItem from="1707058390277" duration="3578000" />
       <workItem from="1707074012101" duration="9640000" />
-      <workItem from="1707125274159" duration="5518000" />
+      <workItem from="1707125274159" duration="6509000" />
+      <workItem from="1707222823547" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="improve">
       <option name="closed" value="true" />
