@@ -1,6 +1,6 @@
 {
   "name": "s-prettier",
-  "version": "0.0.0-development",
+  "version": "1.0.0-dev.1",
   "description": "A template for creating npm packages using TypeScript",
   "main": "index.json",
   "files": [
