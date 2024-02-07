@@ -1,3 +1,10 @@
+## [1.0.0-dev.2](https://github.com/SebastianWesolowski/s-prettier/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2024-02-07)
+
+
+### Features
+
+* ✨ added default list for prettier ignore ([59f5880](https://github.com/SebastianWesolowski/s-prettier/commit/59f58804f5596653a4ff50cb4d1002a2c5a73d1f))
+
 ## 1.0.0-dev.1 (2024-02-06)
 
 
