@@ -2,7 +2,7 @@
   "name": "s-prettier",
   "version": "1.0.0-dev.1",
   "description": "A template for creating npm packages using TypeScript",
-  "main": "index.json",
+  "main": "lib/index.json",
   "files": [
     "lib/**/*",
     "index.json"
@@ -13,8 +13,8 @@
     "lint:fix": "run-s prettier:fix",
     "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json}\"",
     "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
-    "build": "tsc --project tsconfig.build.json",
-    "build:prod": "run-s build  && cp src/index.json lib",
+    "build": "cpy 'src/index.json' 'lib' --parents && sh src/preparePretierIgnore.sh",
+    "build:prod": "cpy 'src/**/*' 'lib' --parents",
     "cm": "cz",
     "husky:prepare-commit-msg": "exec < /dev/tty && node_modules/.bin/git-cz --hook || true",
     "husky:pre-commit": "lint-staged -c ./.husky/lint-staged.config.json",
@@ -22,7 +22,8 @@
     "husky:commit-msg": "commitlint --edit $GIT_PARAMS",
     "staged:lint:check": "npm run prettier:check",
     "staged:lint:fix": "prettier --write ",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "chmod +x ./lib/preparePretierIgnore.sh || true & ./lib/preparePretierIgnore.sh || true"
   },
   "repository": {
     "type": "git",
@@ -40,7 +41,6 @@
   "keywords": [
     "boilerplate",
     "template",
-    "typescript",
     "vscode",
     "jest",
     "husky",
@@ -59,6 +59,8 @@
     "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.3.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
+    "cpy-cli": "^5.0.0",
+    "cross-env": "^7.0.3",
     "git-cz": "^4.9.0",
     "husky": "6.0.0",
     "lint-staged": "^13.2.1",
@@ -72,8 +74,5 @@
     "commitizen": {
       "path": "git-cz"
     }
-  },
-  "dependencies": {
-    "typescript": "^5.3.3"
   }
 }
