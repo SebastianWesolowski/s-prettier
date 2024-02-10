@@ -1,3 +1,11 @@
+## [1.0.0-dev.3](https://github.com/SebastianWesolowski/s-prettier/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2024-02-10)
+
+
+### Bug Fixes
+
+* 🐛 overridden default configuration option removed ([2ff0b20](https://github.com/SebastianWesolowski/s-prettier/commit/2ff0b2093e3278a624fc13ef36eb5de3d25bfe30))
+* 🐛 overridden default configuration option removed ([fdbbf3f](https://github.com/SebastianWesolowski/s-prettier/commit/fdbbf3f84abbe091422e985014f043f0cfa8e453))
+
 ## [1.0.0-dev.2](https://github.com/SebastianWesolowski/s-prettier/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2024-02-07)
 
 
