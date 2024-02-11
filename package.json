@@ -2,7 +2,7 @@
   "name": "s-prettier",
   "version": "1.0.0-dev.3",
   "description": "Configuration for prettier",
-  "main": "./lib/index.js",
+  "main": "./lib/index.json",
   "files": [
     "lib/**/*",
     "index.json"

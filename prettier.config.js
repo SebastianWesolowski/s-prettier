@@ -3,6 +3,8 @@ module.exports = {
   endOfLine: 'auto',
   jsxSingleQuote: true,
   printWidth: 120,
+  semi: true,
   singleQuote: true,
+  trailingComma: 'es5',
   useTabs: false,
 };
