@@ -1,3 +1,10 @@
+## [1.0.0-dev.5](https://github.com/SebastianWesolowski/s-prettier/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2024-02-11)
+
+
+### Bug Fixes
+
+* 🐛 use singleQuote ([d7e1438](https://github.com/SebastianWesolowski/s-prettier/commit/d7e1438a73c9cb56d2e604e5df8b2499488b8217))
+
 ## [1.0.0-dev.4](https://github.com/SebastianWesolowski/s-prettier/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2024-02-11)
 
 
