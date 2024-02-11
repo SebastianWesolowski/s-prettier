@@ -34,6 +34,18 @@ use package as configuration for prettier in package.json
 }
 ```
 
+If You need extended this configuration. Create file `prettier.config.js` with configuration:
+
+```js
+const sPrettier = require('s-prettier')
+
+module.exports = {
+...sPrettier,
+plugins: [require('prettier-plugin-tailwindcss')],
+};
+
+```
+
 ## Badges
 [![Downloads][downloads-img]][downloads-url]
 [![Issues][issues-img]][issues-url]
