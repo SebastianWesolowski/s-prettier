@@ -30,6 +30,9 @@
 ## 1.0.0-dev.1 (2024-02-06)
 
 
+## 1.0.0 (2024-02-05)
+
+
 ### Features
 
 * ✨ export initial configuration ([f80734f](https://github.com/SebastianWesolowski/s-prettier/commit/f80734f83a842f17b6ec1be8b2bd2044a51e4c4a))
