@@ -8,10 +8,9 @@
     "index.json"
   ],
   "scripts": {
-    "build": "run-s build:clean && cpy 'src/index.json' 'lib' --parents && sh src/preparePretierIgnore.sh",
+    "build": "run-s build:clean && cpy 'src/**/*' 'lib' --parents && sh src/preparePretierIgnore.sh",
     "build:clean": "rm -rf ./lib/",
     "build:prod": "run-s  build:clean && cpy 'src/**/*' 'lib' --parents",
-    "cm": "cz",
     "eslint:check": "eslint --no-error-on-unmatched-pattern '**/*.+(js|jsx|ts|tsx)'",
     "eslint:fix": "eslint --no-error-on-unmatched-pattern '**/*.+(js|jsx|ts|tsx)' --fix",
     "husky:commit-msg": "commitlint --edit $GIT_PARAMS",
@@ -21,15 +20,16 @@
     "lint": "run-s lint:fix lint:check",
     "lint:check": "run-s prettier:check eslint:check",
     "lint:fix": "run-s prettier:fix eslint:fix",
-    "postinstall": "chmod +x ./lib/preparePretierIgnore.sh || true & ./lib/preparePretierIgnore.sh || true",
-    "prepare": "husky install",
     "prettier:check": "prettier --check '**/*.{js,jsx,ts,tsx,json}'",
     "prettier:fix": "prettier --write '**/*.{js,jsx,ts,tsx,json}'",
     "staged:lint:check": "eslint",
     "staged:lint:fix": "eslint --fix",
     "staged:prettier:check": "prettier --check",
     "staged:prettier:fix": "prettier --write",
-    "start:dev": "run-s build"
+    "start:dev": "run-s build",
+    "cm": "cz",
+    "prepare": "husky install",
+    "postinstall": "chmod +x ./lib/preparePretierIgnore.sh || true & ./lib/preparePretierIgnore.sh || true"
   },
   "repository": {
     "type": "git",
