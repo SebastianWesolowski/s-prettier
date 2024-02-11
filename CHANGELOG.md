@@ -1,3 +1,10 @@
+## [1.0.0-dev.4](https://github.com/SebastianWesolowski/s-prettier/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2024-02-11)
+
+
+### Bug Fixes
+
+* 🐛 use correct config file to export ([cd41d38](https://github.com/SebastianWesolowski/s-prettier/commit/cd41d38d47f604a77e4d234d4312f638869d9e0c))
+
 ## [1.0.0-dev.3](https://github.com/SebastianWesolowski/s-prettier/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2024-02-10)
 
 
