@@ -1,10 +1,14 @@
----
-Remove after first publish [Set up your repository](docs/HowToAutoDeploy.md)
----
-
 # s-prettier
 
-> My awesome module
+<a href="https://github.com/SebastianWesolowski/starter-npm-package"><img align="left" width="440" height="180" alt="s-prettier package" src="srcReadme/heroImageReposytory.png"></a>
+
+## Important Links
+
+- [![npm package][npm-img]][npm-url]
+- [![Build Status][build-img]][build-url]
+- [Author page](PLACEHOLDER_PAGE_AUTHOR)
+
+Configuration for prettier
 
 ## Install
 
@@ -14,33 +18,24 @@ npm install s-prettier
 
 ## Usage
 
-```ts
-import { myPackage } from "s-prettier";
+use package as configuration for prettier in package.json
 
-myPackage("hello");
-//=> 'hello from my package'
+```json
+{
+    "prettier": "s-prettier",
+    "devDependencies": {
+        "prettier": "^3.2.5",
+        "s-prettier": "^1.0.1"
+    }
+}
 ```
 
-## API
+## Badges
+[![Downloads][downloads-img]][downloads-url]
+[![Issues][issues-img]][issues-url]
+[![Commitizen Friendly][commitizen-img]][commitizen-url]
+[![Semantic Release][semantic-release-img]][semantic-release-url]
 
-### myPackage(input, options?)
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`
-Default: `rainbows`
-
-Lorem ipsum.
 
 [build-img]: https://github.com/SebastianWesolowski/s-prettier/actions/workflows/release.yml/badge.svg
 [build-url]: https://github.com/SebastianWesolowski/s-prettier/actions/workflows/release.yml
@@ -50,8 +45,6 @@ Lorem ipsum.
 [npm-url]: https://www.npmjs.com/package/s-prettier
 [issues-img]: https://img.shields.io/github/issues/SebastianWesolowski/s-prettier
 [issues-url]: https://github.com/SebastianWesolowski/s-prettier/issues
-[codecov-img]: https://codecov.io/gh/SebastianWesolowski/s-prettier/branch/main/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/SebastianWesolowski/s-prettier
 [semantic-release-img]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-release-url]: https://github.com/semantic-release/semantic-release
 [commitizen-img]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
