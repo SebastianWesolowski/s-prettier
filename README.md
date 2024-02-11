@@ -8,6 +8,10 @@
 - [![Build Status][build-img]][build-url]
 - [Author page](PLACEHOLDER_PAGE_AUTHOR)
 
+---
+
+<br/>
+
 Configuration for prettier
 
 ## Install
