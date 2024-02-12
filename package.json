@@ -1,16 +1,19 @@
 {
   "name": "s-prettier",
   "version": "1.1.0-dev.1",
+  "version-SNP": "1.0.3",
   "description": "Configuration for prettier",
   "main": "./lib/index.json",
   "files": [
     "lib/**/*",
-    "index.json"
+    "index.json",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "build": "run-s build:clean && cpy 'src/**/*' 'lib' --parents && sh src/preparePretierIgnore.sh",
     "build:clean": "rm -rf ./lib/",
     "build:prod": "run-s  build:clean && cpy 'src/**/*' 'lib' --parents",
+    "build:package": "[ -d ./dist ] || mkdir ./dist && npm pack --pack-destination ./dist &&  tar -xvzf \"$(ls -t ./dist/*.tgz | head -n 1)\" -C ./dist/",
     "eslint:check": "eslint --no-error-on-unmatched-pattern '**/*.+(js|jsx|ts|tsx)'",
     "eslint:fix": "eslint --no-error-on-unmatched-pattern '**/*.+(js|jsx|ts|tsx)' --fix",
     "husky:commit-msg": "commitlint --edit $GIT_PARAMS",
@@ -29,7 +32,8 @@
     "start:dev": "run-s build",
     "cm": "cz",
     "prepare": "husky install",
-    "postinstall": "chmod +x ./lib/preparePretierIgnore.sh || true & ./lib/preparePretierIgnore.sh || true"
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
   },
   "repository": {
     "type": "git",
@@ -66,6 +70,7 @@
     "@semantic-release/git": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.54.1",
+    "clean-package": "^2.2.0",
     "commitizen": "^4.3.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "cpy-cli": "^5.0.0",
