@@ -120,4 +120,7 @@ dist
 
 # Compiled code
 lib/
-./src/.prettierignore
+
+.idea
+.idea/**
+upload

@@ -8,6 +8,10 @@
 - [![Build Status][build-img]][build-url]
 - [Author page](PLACEHOLDER_PAGE_AUTHOR)
 
+---
+
+<br/>
+
 Configuration for prettier
 
 ## Install
@@ -28,6 +32,18 @@ use package as configuration for prettier in package.json
         "s-prettier": "^1.0.1"
     }
 }
+```
+
+If You need extended this configuration. Create file `prettier.config.js` with configuration:
+
+```js
+const sPrettier = require('s-prettier')
+
+module.exports = {
+...sPrettier,
+plugins: [require('prettier-plugin-tailwindcss')],
+};
+
 ```
 
 ## Badges
