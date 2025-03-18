@@ -1,0 +1,10 @@
+src/
+prettier.config.js
+.github/FUNDING.yml
+package.json
+README.md
+./docs/HowToAutoDeploy.md
+LICENSE
+.nvmrc
+tools/addDependency.js
+tools/customize/customize.config.ts
